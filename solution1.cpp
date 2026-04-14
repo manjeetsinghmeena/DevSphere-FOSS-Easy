@@ -1,3 +1,4 @@
+#include<bits/stdc++.h>
 #include <iostream>
 using namespace std;
 
@@ -10,6 +11,7 @@ int main() {
         while (count < k) {
             current++;
             if (current % n != 0) count++;
+            else continue;
         }
         cout << current << endl;
     }
